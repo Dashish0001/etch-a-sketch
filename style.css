@@ -3,8 +3,12 @@
     height: 640px;
     display: flex;
     flex-wrap: wrap;
+    outline: 1px solid red;
+    box-sizing: border-box;
 }
 #container div {
     width: calc(100% / 16);
     height: calc(100% / 16);
+      border: 1px solid lightgray;
+    box-sizing: border-box;
 }
